@@ -1,12 +1,94 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Test Webpage</title>
+<style>
+body {
+  background-color: cornflowerblue;
+}
+h1   {
+  border: 1px solid blue;
+  color: red;
+  font-family: verdana;
+  font-size: 200%
+}
+p  {
+  color: green;
+  font-family: courier;
+  font-size: 100%;
+}
+
+.testClass {
+  background-color: black;
+  color: white;
+  margin: 4px;
+  padding: 4px;
+}
+</style>
 </head>
 <body>
+<!-- This is a comment which should not show on the page -->
+<h1>This is a test webpage!</h1>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div class="testClass">
+  <h2>Class Test</h2>
+  <p>this is neat</p>
+</div>
+
+<small>This is some small text</small>
+<p>Displaying a missing image:</p>
+<img src="MissingImage.png" alt="Missing Image not found">
+
+<p>Displaying cat image</p>
+<img src="cat.png" alt="404 feline not found">
+
+<p></p>
+<button>I am a button</button>
+
+<p>Here's a quote: <blockquote>Easy come, easy go.</blockquote></p>
+
+
+<div style="background-color:black;color:white;padding:2px;">
+<p><i>Messing around with a list:</i></p>
+<ol>
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+  <li>Four</li>
+</ol>
+</div>
+
+
+<p style="background-color:Violet;">
+This is a paragraph 
+with a violet background
+</p>
+
+
+<table style="width:25%">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Daniel</td>
+    <td>22</td>
+  </tr>
+</table>
+
+
+<p>This is a hyperlink: 
+<a href="https://uic.blackboard.com/">Link to blackboard</a>
+</p>
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.
+</button>
+<p id="demo"></p>
+
+<noscript>Sorry, your browser does not support JavaScript!<noscript>
 
 </body>
 </html> 
