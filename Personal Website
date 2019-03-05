@@ -1,0 +1,15 @@
+<!doctype html>
+<html>  <img src = "Silhoutte" alt = "profile image"> 
+	<body style = "background-color: Lightgray;">
+		<h2>Personal Information</h1>
+		<ul style="list-style-type:none";>
+			<li>Elijah Raul Rodriguez Beltran</li>
+			<li>Undergraduate Student at University of Illinois at Chicago </li>
+			<li>Computer Science Major</li>
+			<li>Expected Graduation: May 2022</li>	
+		</ul>	
+		<h2>Mission Statement</h2>
+		<h2>Course History</h2>
+		<h2>Projects and Experience</h2>
+	</body>
+</html>
