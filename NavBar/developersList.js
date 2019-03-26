@@ -1,13 +1,19 @@
 
 //Is it possible to store and then retrieve this information from another file,
 // rather than have it directly in the script?
-const nameToUrl = {
-    "daniel bleh":"https://www.google.com",
-    "david blah":"https://www.bing.com"
-};
+const nameUrlPairs = [
+    { 
+      name: "daniel bleh",
+      link: "https://www.google.com"
+    },
+    {
+      name: "david blah",
+      link: "https://www.bing.com"
+    }
+];
 
-for (const [name, link] of Object.entries(nameToUrl))
+for (var i = 0; i < nameUrlPairs.length; i++)
 {
-  //console.log(name);
-  document.write("<div><li><a href='" + link + "' class='developerPageLink'>" + name + "</a></li></div>"); 
+  //console.log(nameUrlPairs[i].link);
+  document.write("<div><li><a href='" + nameUrlPairs[i].link + "' class='developerPageLink'>" + nameUrlPairs[i].name + "</a></li></div>"); 
 }
